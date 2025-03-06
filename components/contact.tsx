@@ -31,14 +31,14 @@ function Contact() {
     >
       <SectionHeading>Contact me</SectionHeading>
       <p className='-mt-5 text-gray-700 dark:text-white/80'>
-        Contact me directly at{' '}
+        Contact me at{' '}
         <a
-          href='mailto:contact@juliusliu.dev'
+          href='mailto:abdennour-guessoum@hotmail.com'
           className='display-link font-light'
         >
-          contact@juliusliu.dev
+          abdennour-guessoum@hotmail.com
         </a>{' '}
-        or use this form to say hi!
+        or directly down here !
       </p>
 
       <form
@@ -58,7 +58,7 @@ function Contact() {
           type='email'
           name='email'
           id='email'
-          placeholder='hello@example.com'
+          placeholder='username@example.com'
           required
         />
         <textarea
