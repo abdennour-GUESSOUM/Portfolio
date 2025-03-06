@@ -38,7 +38,6 @@ function Contact() {
         >
           abdennour-guessoum@hotmail.com
         </a>{' '}
-        or directly down here !
       </p>
 
       <form
