@@ -2,6 +2,7 @@ import React from 'react';
 import { FaReact } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
 import gitletImg from '@/public/gitlet.png';
+import intakhibdzImg from '@/public/intakhibdz.png';
 import morphImg from '@/public/morph.png';
 import ibkrStatementParserImg from '@/public/ibkrStatementParser.png';
 
@@ -38,49 +39,51 @@ My focus is on **UI/UX for Embedded Systems**.`;
 
 export const aboutText = `Student in Computer Science Master’s Degree at the University of Bretagne Occidentale, I am looking for a software development internship of at least 2 months where I can apply my technical skills to innovative projects. Convinced of the importance of long-term commitment, I would also be delighted to consider an apprenticeship to actively contribute to your objectives. 
 Available starting from March 31, 2025, I will fully commit to any mission entrusted to me.`;
-
 export const experiencesData = [
   {
-    title: 'Open Source Society University',
-    location: 'Online',
-    description:
-      'Where I built solid understanding of programming paradigms, data structures and algorithms, operating systems, and computer networking.',
+    title: 'Bachelor’s Degree in Computer Science',
+    location: 'University of Badji Mokhtar, Annaba, Algeria',
+    description: 
+      'Fundamental training in computer science, algorithms, programming (C & Java), databases, operating systems, and software engineering.',
     icon: React.createElement(LuGraduationCap),
-    date: '2022 – 2024',
+    date: '2019 - 2022',
   },
   {
-    title: 'Computer Programming Diploma',
-    location: 'Algonquin College, Ottawa, ON',
-    description:
-      "I'm now a Computer Programming student at Algonquin College. My tech stack is React, Next.js, and MongoDB. I'm open to co-op opportunities.",
-    icon: React.createElement(FaReact),
-    date: '2024 - present',
+    title: 'Master’s Degree in Embedded Systems and Mobility',
+    location: 'University of Badji Mokhtar, Annaba, Algeria',
+    description: 
+      'Specialization in embedded systems, both hardware and software co-design, real-time development, IoT, and communication protocols.',
+    icon: React.createElement(LuGraduationCap),
+    date: '2022 - 2024',
+  },
+  {
+    title: 'Master Computer Science – Embedded Software Systems',
+    location: 'University of Bretagne Occidentale, Brest, France',
+    description: 
+      'Ongoing, software development for critical systems using Ada and C, parallel computing using PVM,OpenMP and CUDA, and embedded tools like Linux and Systemd.',
+    icon: React.createElement(LuGraduationCap),
+    date: '2024 - Present',
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: 'Morph',
+    title: 'Apple Journal',
     description:
-      'A smart AI-powered essay editor. Users can get polished essays following a multi-step editing process with just a few clicks.',
-    tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
-    imageUrl: morphImg,
+      'A desktop application replicating Apple’s Journal app, built with Kotlin and Compose Multiplatform. It features an intuitive UI for tracking daily memories and events.',
+    tags: ['Kotlin', 'Compose Multiplatform', 'IntelliJ IDEA', 'UI/UX Design'],
+    imageUrl: gitletImg, // Replace with your image import
   },
   {
-    title: 'IBKR Statement Parser',
+    title: 'Blockchain Voting App',
     description:
-      `Automated conversion tool from IBKR's export to Portfolio Profit-compatible CSV format.`,
-    tags: ['Go', 'Abstract Data Type', 'Functional Programming', 'File I/O'],
-    imageUrl: ibkrStatementParserImg,
-  },
-  {
-    title: 'Gitlet',
-    description:
-      'An object-oriented implementation of Git. Supports branch merging with automatic conflict resolution.',
-    tags: ['Java', 'Serialization', 'Data Structures', 'Error Handling'],
-    imageUrl: gitletImg,
+      'A secure mobile voting application leveraging blockchain and NFC for multi-factor authentication.The app includes facial recognition and private key security.',
+    tags: ['Flutter', 'Dart', 'Solidity', 'Blockchain', 'NFC', 'Firebase'],
+    imageUrl: intakhibdzImg, // Replace with your image import
   }
 ] as const;
+
+
 export const skillsData = [
   // Core Languages (from CV)
   'C',

@@ -51,7 +51,6 @@ function About() {
       >
         {aboutText}
       </Markdown>
-      <p></p>
     </motion.section>
   );
 }
