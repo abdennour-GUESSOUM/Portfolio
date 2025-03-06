@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    --line-color: #e5e7eb
+}
+
+html.dark {
+    --line-color: rgba(255, 255, 255, .2);
+}
+
+.borderBlack {
+    @apply border border-black/10;
+}
+
+.text-body {
+    @apply text-gray-950;
+    @apply dark:text-gray-50;
+    @apply dark:text-opacity-90;
+}
+
+.display-link {
+    @apply text-indigo-600;
+    @apply dark:text-indigo-300;
+    @apply after:content-['_↗'];
+}
+
+@layer utilities {
+    .flowing-redistribution {
+        @apply sm:hover:mx-2;
+        @apply sm:transition-custom;
+        @apply sm:duration-300;
+        @apply sm:will-change-transform;
+    }
+}
