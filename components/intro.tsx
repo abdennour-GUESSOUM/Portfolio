@@ -32,27 +32,14 @@ function Intro() {
             }}
           >
             <Image
-              src='https://avatars.githubusercontent.com/u/131168602'
+              src='/profile.jpg'
               alt='Portrait'
-              width='200'
-              height='200'
+              width='600'
+              height='300'
               priority={true}
-              className='h-24 w-24 rounded-full border-[0.35rem] border-white object-cover shadow-xl'
+              className='h-48 w-48 rounded-full border-[0.15rem] border-white object-cover shadow-xl' // Adjust the size here
             />
           </motion.div>
-          <motion.span
-            className='absolute bottom-0 right-0 text-4xl'
-            initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{
-              type: 'spring',
-              stiffness: 125,
-              delay: 0.1,
-              duration: 0.7,
-            }}
-          >
-            😎
-          </motion.span>
         </div>
       </div>
 
@@ -89,10 +76,10 @@ function Intro() {
           download
           className='borderBlack sm:flowing-redistribution flex cursor-pointer items-center gap-2 rounded-full bg-white px-7 py-3 outline-none transition hover:scale-110 focus:scale-110 active:scale-105 dark:bg-white/10'
         >
-          Résumé <HiDownload className='opacity-60' />
+          Resume <HiDownload className='opacity-60' />
         </a>
         <a
-          href='https://github.com/juliusliu02'
+          href='https://www.linkedin.com/in/abdennour-guessoum'
           target='_blank'
           rel='noopener noreferrer'
           className='borderBlack sm:flowing-redistribution flex cursor-pointer items-center gap-2 rounded-full bg-white p-4 text-gray-700 outline-none transition hover:scale-[1.15] hover:text-gray-950 focus:scale-[1.15] active:scale-105 dark:bg-white/10 dark:text-white/60'
@@ -100,7 +87,7 @@ function Intro() {
           <BsLinkedin />
         </a>
         <a
-          href='https://github.com/juliusliu02'
+          href='https://github.com/abdennour-GUESSOUM'
           target='_blank'
           rel='noopener noreferrer'
           className='borderBlack sm:flowing-redistribution flex cursor-pointer items-center gap-2 rounded-full bg-white p-4 text-gray-700 outline-none transition hover:scale-[1.15] hover:text-gray-950 focus:scale-[1.15] active:scale-105 dark:bg-white/10 dark:text-white/60'

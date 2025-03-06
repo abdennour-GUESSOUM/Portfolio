@@ -37,13 +37,8 @@ I strive to create *intuitive and elegant solutions*.
 
 My focus is **React (Next.js)**.`;
 
-export const aboutText = `I started studying programming by taking online courses following
-  [the OSSU curriculum](https://github.com/ossu/computer-science),
-  which equipped me with a solid understanding of object-oriented and
-  functional programming, data structures and algorithm. My favorite part of
-  programming is the problem-solving aspect.
-  I love the idea of divide and conquer, where problems are solved by
-  first being divided into smaller manageable pieces.`;
+export const aboutText = `Student in Computer Science Master’s Degree at the University of Bretagne Occidentale, I am looking for a software development internship of at least 2 months where I can apply my technical skills to innovative projects. Convinced of the importance of long-term commitment, I would also be delighted to consider an apprenticeship to actively contribute to your objectives. 
+Available starting from March 31, 2025, I will fully commit to any mission entrusted to me.`;
 
 export const experiencesData = [
   {

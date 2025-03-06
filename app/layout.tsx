@@ -9,8 +9,8 @@ import ThemeSwitch from '@/components/theme-switch';
 import ThemeContextProvider from '@/context/theme-context';
 
 export const metadata: Metadata = {
-  title: 'Julius Liu | Portfolio',
-  description: 'Full Stack Developer',
+  title: 'Abdennour GUESSOUM | Portfolio',
+  description: 'Computer science Engineer',
 };
 
 export default function RootLayout({
