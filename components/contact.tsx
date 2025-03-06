@@ -34,7 +34,7 @@ function Contact() {
         Contact me at{' '}
         <a
           href='mailto:abdennour-guessoum@hotmail.com'
-          className='display-link font-light'
+          className=' font-light'
         >
           abdennour-guessoum@hotmail.com
         </a>{' '}
@@ -58,7 +58,7 @@ function Contact() {
           type='email'
           name='email'
           id='email'
-          placeholder='username@example.com'
+          placeholder='email@example.com'
           required
         />
 
