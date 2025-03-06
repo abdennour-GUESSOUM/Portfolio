@@ -1,10 +1,8 @@
 import React from 'react';
-import { FaReact } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
-import gitletImg from '@/public/gitlet.png';
+import { PiBooks } from "react-icons/pi";
+import journalappImg from '@/public/journalapp.png';
 import intakhibdzImg from '@/public/intakhibdz.png';
-import morphImg from '@/public/morph.png';
-import ibkrStatementParserImg from '@/public/ibkrStatementParser.png';
 
 export const links = [
   {
@@ -44,7 +42,7 @@ export const experiencesData = [
     title: 'Bachelor’s Degree in Computer Science',
     location: 'University of Badji Mokhtar, Annaba, Algeria',
     description: 
-      'Fundamental training in computer science, algorithms, programming (C & Java), databases, operating systems, and software engineering.',
+      'Fundamental training in computer science, algorithms, programming like C & Java, databases, operating systems, and software engineering.',
     icon: React.createElement(LuGraduationCap),
     date: '2019 - 2022',
   },
@@ -57,11 +55,11 @@ export const experiencesData = [
     date: '2022 - 2024',
   },
   {
-    title: 'Master Computer Science – Embedded Software Systems',
+    title: 'Master – Embedded Software Systems',
     location: 'University of Bretagne Occidentale, Brest, France',
     description: 
-      'Ongoing, software development for critical systems using Ada and C, parallel computing using PVM,OpenMP and CUDA, and embedded tools like Linux and Systemd.',
-    icon: React.createElement(LuGraduationCap),
+      'Ongoing, software development for critical, parallel and/or concurrent systems using Golang, C and Ada.',
+    icon: React.createElement(PiBooks),
     date: '2024 - Present',
   },
 ] as const;
@@ -72,20 +70,19 @@ export const projectsData = [
     description:
       'A desktop application replicating Apple’s Journal app, built with Kotlin and Compose Multiplatform. It features an intuitive UI for tracking daily memories and events.',
     tags: ['Kotlin', 'Compose Multiplatform', 'IntelliJ IDEA', 'UI/UX Design'],
-    imageUrl: gitletImg, // Replace with your image import
+    imageUrl: journalappImg,
   },
   {
     title: 'Blockchain Voting App',
     description:
       'A secure mobile voting application leveraging blockchain and NFC for multi-factor authentication.The app includes facial recognition and private key security.',
     tags: ['Flutter', 'Dart', 'Solidity', 'Blockchain', 'NFC', 'Firebase'],
-    imageUrl: intakhibdzImg, // Replace with your image import
+    imageUrl: intakhibdzImg,
   }
 ] as const;
 
 
 export const skillsData = [
-  // Core Languages (from CV)
   'C',
   'Java',
   'Python',
@@ -98,7 +95,6 @@ export const skillsData = [
   'VHDL',
   'Ada',
 
-  // Frontend & UI (your additions + CV)
   'HTML',
   'CSS',
   'React',
@@ -108,30 +104,25 @@ export const skillsData = [
   'Babylon.js',
   'Framer Motion',
 
-  // Mobile & Cross-Platform (CV highlights)
   'Flutter',
   'Jetpack Compose',
   'Compose Multiplatform',
   'Android Studio',
 
-  // Backend & Tools
   'Node.js',
   'Laravel',
   'Git',
   'GitLab',
 
-  // Data Science & AI (from CV)
   'TensorFlow',
   'Keras',
   'sklearn',
 
-  // Databases
   'MySQL',
   'SQLite',
   'Firebase',
   'MongoDB',
 
-  // Embedded/Systems & Tools (CV focus)
   'Linux',
   'OpenMP',
   'CUDA',
@@ -142,7 +133,6 @@ export const skillsData = [
   'Vivado',
   'Truffle Suite',
 
-  // IDEs & Misc
   'IntelliJ IDEA',
   'Eclipse',
   'VSCode',

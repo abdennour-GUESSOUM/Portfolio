@@ -34,10 +34,10 @@ function Intro() {
             <Image
               src='/profile.jpg'
               alt='Portrait'
-              width='600'
+              width='300'
               height='300'
               priority={true}
-              className='h-48 w-48 rounded-full border-[0.15rem] border-white object-cover shadow-xl' // Adjust the size here
+              className='h-49 w-49 rounded-full border-[0.10rem] border-white object-cover shadow-xl'
             />
           </motion.div>
         </div>
@@ -47,7 +47,7 @@ function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <Markdown className='text-body mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] prose-p:my-5 sm:text-4xl'>
+        <Markdown className='text-body mb-10 mt-4 px-4 text-lg font-normal !leading-[1.5] prose-p:my-3 sm:text-xl'>
           {introText}
         </Markdown>
       </motion.h1>

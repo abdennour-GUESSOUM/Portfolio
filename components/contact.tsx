@@ -54,21 +54,28 @@ function Contact() {
         }}
       >
         <input
-          className='borderBlack h-14 rounded-lg px-4 transition-all dark:bg-white dark:bg-opacity-80 dark:outline-none dark:focus:bg-opacity-100'
+          className='borderBlack h-14 rounded-lg px-4 transition-all placeholder-gray-500 dark:bg-white dark:bg-opacity-80 dark:outline-none dark:placeholder-gray-900 dark:focus:bg-opacity-100'
           type='email'
           name='email'
           id='email'
           placeholder='username@example.com'
           required
         />
-        <textarea
-          className='borderBlack my-3 h-52 rounded-lg p-4 transition-all dark:bg-white dark:bg-opacity-80 dark:outline-none dark:focus:bg-opacity-100'
-          name='message'
-          id='message'
-          placeholder='Your message'
-          required
-        />
-        <SubmitButton />
+
+        {/* Container for textarea and button */}
+        <div className='relative'>
+          <textarea
+            className='borderBlack my-3 h-52 w-full min-w-[20rem] max-w-[38rem] placeholder-gray-900 rounded-lg p-4 transition-all dark:bg-white dark:bg-opacity-80 dark:outline-none dark:focus:bg-opacity-100'
+            name='message'
+            id='message'
+            placeholder='Your message'
+            required
+          />
+          {/* Submit button positioned at the bottom right */}
+          <div className='absolute bottom-4 right-4'>
+            <SubmitButton />
+          </div>
+        </div>
       </form>
     </motion.section>
   );
