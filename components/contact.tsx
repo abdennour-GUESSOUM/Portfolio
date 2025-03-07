@@ -34,7 +34,7 @@ function Contact() {
         Contact me at{' '}
         <a
           href='mailto:abdennour-guessoum@hotmail.com'
-          className=' font-light'
+          className=' -mt-5 text-gray-700 dark:text-white/80'
         >
           abdennour-guessoum@hotmail.com
         </a>{' '}
@@ -64,10 +64,10 @@ function Contact() {
         {/* Container for textarea and button */}
         <div className='relative'>
           <textarea
-            className='borderBlack my-3 h-52 w-full min-w-[20rem] max-w-[38rem] placeholder-gray-900 rounded-lg p-4 transition-all dark:bg-white dark:bg-opacity-80 dark:outline-none dark:focus:bg-opacity-100'
+            className='borderBlack my-3 h-52 w-full min-w-[20rem] max-w-[38rem] placeholder-gray-500 rounded-lg p-4 transition-all dark:bg-white dark:bg-opacity-80 dark:outline-none dark:placeholder-gray-900 dark:focus:bg-opacity-100'
             name='message'
             id='message'
-            placeholder='Your message'
+            placeholder="welcome, you can write me and i'll reply as soon as possible, thank you ! "
             required
           />
           {/* Submit button positioned at the bottom right */}

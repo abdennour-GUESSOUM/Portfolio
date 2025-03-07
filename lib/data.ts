@@ -31,7 +31,7 @@ export const links = [
   },
 ] as const;
 
-export const introText = `**Hello, I'm Abdennour.** A **Computer Science** student passionate about **web UI/UX development** and **Embedded Systems**. I create *intuitive, elegant, and user-friendly solutions*.
+export const introText = `Hello, I'm **Abdennour.** A Computer Science student passionate about web UI/UX development and Embedded Systems. I create intuitive, elegant, and user-friendly solutions.
 
 My focus is on **UI/UX for Embedded Systems**.`;
 
